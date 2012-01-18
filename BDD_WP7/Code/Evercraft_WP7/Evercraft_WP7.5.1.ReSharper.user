@@ -1,0 +1,97 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="98D7ED5D-CA91-4669-A180-98596B6B9798/f:AlignmentEnum.cs" caret="117" fromTop="8" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Features/f:Character.feature" caret="742" fromTop="23" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:GlobalSteps.cs" caret="382" fromTop="15" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:StepsBase.cs" caret="301" fromTop="10" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterArmorClassHitPointsSteps.cs" caret="710" fromTop="21" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Features/f:CharacterArmorClassHitPoints.feature" caret="334" fromTop="11" />
+      <File id="98D7ED5D-CA91-4669-A180-98596B6B9798/f:Character.cs" caret="385" fromTop="20" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/f:MainPage.xaml.cs" caret="1047" fromTop="12" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="340" fromTop="13" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/f:App.config" caret="366" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/f:MainPage.xaml.cs" caret="664" fromTop="21" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/f:MainPage.xaml.cs" caret="768" fromTop="26" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/f:MainPage.xaml.cs" caret="1047" fromTop="32" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/f:App.config" caret="414" fromTop="7" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="485" fromTop="19" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="304" fromTop="8" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="456" fromTop="24" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="1345" fromTop="43" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Features/f:Character.feature" caret="742" fromTop="23" />
+      <File id="98D7ED5D-CA91-4669-A180-98596B6B9798/f:Character.cs" caret="385" fromTop="11" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="950" fromTop="25" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="1302" fromTop="33" />
+      <File id="98D7ED5D-CA91-4669-A180-98596B6B9798/f:AlignmentEnum.cs" caret="89" fromTop="5" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Features/f:CharacterArmorClassHitPoints.feature" caret="136" fromTop="3" />
+      <File id="98D7ED5D-CA91-4669-A180-98596B6B9798/f:Character.cs" caret="58" fromTop="4" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterArmorClassHitPointsSteps.cs" caret="288" fromTop="10" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterSteps.cs" caret="304" fromTop="13" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:GlobalSteps.cs" caret="231" fromTop="9" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:GlobalSteps.cs" caret="382" fromTop="15" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:StepsBase.cs" caret="301" fromTop="10" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Features/f:CharacterArmorClassHitPoints.feature" caret="382" fromTop="11" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterArmorClassHitPointsSteps.cs" caret="790" fromTop="21" />
+      <File id="59865831-A5ED-4DF1-AF02-8218E8725E09/d:Steps/f:CharacterArmorClassHitPointsSteps.cs" caret="763" fromTop="21" />
+      <File id="98D7ED5D-CA91-4669-A180-98596B6B9798/f:Character.cs" caret="242" fromTop="12" />
+      <File id="98D7ED5D-CA91-4669-A180-98596B6B9798/f:Character.cs" caret="364" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Loaded" priority="0" />
+      <Item value="string" priority="3" />
+      <Item value="private" priority="0" />
+      <Item value="evercraftCharacter" priority="4" />
+      <Item value="new" priority="0" />
+      <Item value="Character" priority="0" />
+      <Item value="characterName" priority="1" />
+      <Item value="alignment" priority="1" />
+      <Item value="Assert`0" priority="1" />
+      <Item value="true" priority="1" />
+      <Item value="CharacterArmorClassHitPointsSteps`0" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="StepsBase`0" priority="1" />
+      <Item value="return" priority="0" />
+      <Item value="Character`0" priority="1" />
+      <Item value="ScenarioContext`0" priority="0" />
+      <Item value="value" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="ArmorClass" priority="0" />
+      <Item value="hitPoints" priority="0" />
+      <Item value="EvercraftCharacter" priority="0" />
+      <Item value="HitPoints" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreEqual`0" priority="3" />
+      <Item value="error" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TechTalk.SpecFlow.ScenarioContext">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TechTalk.SpecFlow.ScenarioContext">
+      <Item value="Get`1" priority="0" />
+      <Item value="Set`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
