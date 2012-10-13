@@ -1,6 +1,18 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/f:Class1.cs" caret="0" fromTop="0" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/f:packages.config" caret="0" fromTop="0" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/d:Specs/f:BlogEntry.feature.cs" caret="2829" fromTop="26" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/d:Properties/f:AssemblyInfo.cs" caret="1462" fromTop="36" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/f:App.config" caret="596" fromTop="14" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/f:WebBrowser.cs" caret="704" fromTop="28" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/d:Specs/f:BlogEntry.feature" caret="210" fromTop="7" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/d:Steps/f:BlogEntrySteps.cs" caret="487" fromTop="19" />
   </RecentFiles>
-  <RecentEdits />
+  <RecentEdits>
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/f:App.config" caret="596" fromTop="14" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/d:Properties/f:AssemblyInfo.cs" caret="1462" fromTop="36" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/f:WebBrowser.cs" caret="702" fromTop="28" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/d:Specs/f:BlogEntry.feature" caret="245" fromTop="6" />
+    <File id="9D82DC31-9270-40C8-9B07-4D9C5E7551E2/d:Steps/f:BlogEntrySteps.cs" caret="487" fromTop="19" />
+  </RecentEdits>
 </RecentFiles>

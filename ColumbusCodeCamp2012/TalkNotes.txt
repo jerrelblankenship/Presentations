@@ -1,5 +1,10 @@
 put in app.config
+**configSections**
+<sectionGroup name="NUnit">
+	<section name="TestRunner" type="System.Configuration.NameValueSectionHandler"/>
+</sectionGroup>
 
+**configuration**
 <NUnit>
 	<TestRunner>
 		<add key="ApartmentState" value="STA"/>
@@ -13,3 +18,5 @@ put in AssemblyInfo.cs
 
 install-package specflow.nunit
 install-package watin
+
+Interop.SHDocVw -- Embed Interop Types -> false
