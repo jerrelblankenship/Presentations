@@ -1,0 +1,15 @@
+put in app.config
+
+<NUnit>
+	<TestRunner>
+		<add key="ApartmentState" value="STA"/>
+	</TestRunner>
+</NUnit>
+
+put in AssemblyInfo.cs
+
+[assembly: RequiresSTA]
+
+
+install-package specflow.nunit
+install-package watin
