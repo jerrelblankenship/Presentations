@@ -57,7 +57,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloFromCoffeeScript.html" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\helloWorld.coffee" />
+    <None Include="Scripts\jquery-2.0.1.intellisense.js" />
+    <Content Include="Scripts\helloWorld.js">
+      <DependentUpon>helloWorld.coffee</DependentUpon>
+    </Content>
+    <Content Include="Scripts\helloWorld.min.js">
+      <DependentUpon>helloWorld.coffee</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery-2.0.1.js" />
+    <Content Include="Scripts\jquery-2.0.1.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-2.0.1.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
