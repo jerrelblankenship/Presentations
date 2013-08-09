@@ -21,9 +21,11 @@ namespace XamlBasedAppExample
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private RomanConverter romanConverter;
         public MainPage()
         {
             this.InitializeComponent();
+            romanConverter = new RomanConverter();
         }
 
         /// <summary>
@@ -33,6 +35,12 @@ namespace XamlBasedAppExample
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        private void ConvertNum_OnClick(object sender, RoutedEventArgs e)
+        {
+            int num = Convert.ToInt32(ArabicNum.Text);
+            RomanNum.Text = romanConverter.RomanNumeralConverter(num);
         }
     }
 }

@@ -8,6 +8,24 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
 
+        <TextBox Grid.Row="1" IsReadOnly="True" Text="Enter Number to Convert:" FontSize="48" VerticalAlignment="Center" TextAlignment="Center" Margin="10,30,10,30"></TextBox>
+        <TextBox Grid.Row="3" IsReadOnly="True" Text="Roman Numeral:" FontSize="48" VerticalAlignment="Center" TextAlignment="Center" Margin="10,30,10,30"></TextBox>
+        <TextBox Name="ArabicNum" Grid.Row="1" Grid.Column="1" FontSize="48" VerticalAlignment="Center"></TextBox>
+        <TextBox Name="RomanNum" Grid.Row="3" Grid.Column="1" FontSize="48" VerticalAlignment="Center"></TextBox>
+        <Button Name="ConvertNum" Grid.Row="2" Grid.Column="1" FontSize="40" Click="ConvertNum_OnClick" Margin="0,0,0,0">Convert Number</Button>
     </Grid>
 </Page>
