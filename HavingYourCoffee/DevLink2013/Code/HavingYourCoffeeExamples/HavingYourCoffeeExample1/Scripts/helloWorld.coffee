@@ -10,3 +10,9 @@ sayHelloWorld = () ->
     $('#resultMessage').html(result)
     
 this.sayHelloWorld = sayHelloWorld
+
+mathLib = 
+    add: (x,y) ->
+        x + y
+
+this.mathLib = mathLib

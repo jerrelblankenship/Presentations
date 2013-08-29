@@ -60,16 +60,23 @@
     <Content Include="HelloFromCoffeeScript.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\helloWorld.coffee" />
+    <Content Include="Scripts\helloWorldTest.coffee" />
     <None Include="Scripts\jquery-2.0.1.intellisense.js" />
     <Content Include="Scripts\helloWorld.js">
       <DependentUpon>helloWorld.coffee</DependentUpon>
     </Content>
-    <Content Include="Scripts\helloWorld.min.js">
-      <DependentUpon>helloWorld.coffee</DependentUpon>
+    <Content Include="Scripts\helloWorldTest.js">
+      <DependentUpon>helloWorldTest.coffee</DependentUpon>
+    </Content>
+    <Content Include="Scripts\helloWorldTest.min.js">
+      <DependentUpon>helloWorldTest.coffee</DependentUpon>
     </Content>
     <Content Include="Scripts\jquery-2.0.1.js" />
     <Content Include="Scripts\jquery-2.0.1.min.js" />
     <Content Include="Scripts\jquery-2.0.1.min.map" />
+    <Content Include="Scripts\qunit-1.12.0.js" />
+    <Content Include="Scripts\test.js" />
+    <Content Include="test.html" />
     <Content Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
@@ -92,9 +99,9 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>62077</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:50163/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

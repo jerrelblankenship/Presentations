@@ -1,5 +1,5 @@
 ﻿(function() {
-  var sayHelloWorld;
+  var mathLib, sayHelloWorld;
 
   sayHelloWorld = function() {
     var enteredText, result;
@@ -12,5 +12,13 @@
   };
 
   this.sayHelloWorld = sayHelloWorld;
+
+  mathLib = {
+    add: function(x, y) {
+      return x + y;
+    }
+  };
+
+  this.mathLib = mathLib;
 
 }).call(this);
