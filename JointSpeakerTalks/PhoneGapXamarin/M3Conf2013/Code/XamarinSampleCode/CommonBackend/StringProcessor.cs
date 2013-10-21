@@ -6,13 +6,18 @@
 	    {
 		    var resultNumber = 0;
 
-		    if (romanNumeral == "I")
+		    var romanCharacters = romanNumeral.ToCharArray();
+
+		    foreach (var romanCharacter in romanNumeral)
 		    {
-			    resultNumber = 1;
-		    }
-		    else
-		    {
-			    resultNumber = 2;
+			    if (romanCharacter == 'V')
+			    {
+				    resultNumber += 5;
+			    }
+			    else
+			    {
+					resultNumber += 1;				    
+			    }
 		    }
 
 		    return resultNumber;

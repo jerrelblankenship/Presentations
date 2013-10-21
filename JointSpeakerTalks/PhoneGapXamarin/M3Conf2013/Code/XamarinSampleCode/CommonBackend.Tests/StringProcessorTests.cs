@@ -26,5 +26,26 @@
 			var result = _sProcessor.ConvertToNumberString("II");
 			Assert.That(result, Is.EqualTo(2));
 		}
+
+		[Test]
+		public void ConvertToNumberString_returns_3_for_III()
+		{
+			var result = _sProcessor.ConvertToNumberString("III");
+			Assert.That(result, Is.EqualTo(3));
+		}
+
+		[Test]
+		public void ConvertToNumberString_returns_5_for_V()
+		{
+			var result = _sProcessor.ConvertToNumberString("V");
+			Assert.That(result, Is.EqualTo(5));
+		}
+
+		[Test]
+		public void ConvertToNumberString_returns_6_for_VI()
+		{
+			var result = _sProcessor.ConvertToNumberString("VI");
+			Assert.That(result, Is.EqualTo(6));
+		}
 	}
 }
