@@ -10,13 +10,18 @@
 
 		    foreach (var romanCharacter in romanNumeral)
 		    {
-			    if (romanCharacter == 'V')
+
+			    switch (romanCharacter)
 			    {
-				    resultNumber += 5;
-			    }
-			    else
-			    {
-					resultNumber += 1;				    
+					case 'X':
+					    resultNumber += 10;
+						break;
+					case 'V':
+					    resultNumber += 5;
+					    break;
+					case 'I':
+					    resultNumber += 1;
+					    break;
 			    }
 		    }
 

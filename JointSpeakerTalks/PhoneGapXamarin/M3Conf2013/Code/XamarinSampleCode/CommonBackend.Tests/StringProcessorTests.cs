@@ -47,5 +47,12 @@
 			var result = _sProcessor.ConvertToNumberString("VI");
 			Assert.That(result, Is.EqualTo(6));
 		}
+
+		[Test]
+		public void ConvertToNumberString_returns_10_for_X()
+		{
+			var result = _sProcessor.ConvertToNumberString("X");
+			Assert.That(result, Is.EqualTo(10));
+		}
 	}
 }
