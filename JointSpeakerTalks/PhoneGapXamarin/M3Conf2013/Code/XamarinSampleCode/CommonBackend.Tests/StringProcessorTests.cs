@@ -54,5 +54,12 @@
 			var result = _sProcessor.ConvertToNumberString("X");
 			Assert.That(result, Is.EqualTo(10));
 		}
+
+		[Test]
+		public void ConvertToNumberString_returns_4_for_IV()
+		{
+			var result = _sProcessor.ConvertToNumberString("IV");
+			Assert.That(result, Is.EqualTo(4));
+		}
 	}
 }
