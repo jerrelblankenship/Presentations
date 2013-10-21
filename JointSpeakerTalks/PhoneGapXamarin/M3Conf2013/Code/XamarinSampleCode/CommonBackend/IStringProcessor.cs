@@ -2,7 +2,7 @@
 {
 	public interface IStringProcessor
 	{
-		string ConvertToNumberString(string romanNumeral);
+		int ConvertToNumberString(string romanNumeral);
 		string ConvertToRomanNumeral(string numberString);
 	}
 }

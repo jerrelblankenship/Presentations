@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonBackend", "CommonBackend\CommonBackend.csproj", "{2FD7970B-DD14-4899-AA91-1D151CFCE3C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonBackend.Tests", "CommonBackend.Tests\CommonBackend.Tests.csproj", "{DE1AE7C3-14CE-4198-BF58-F5C63F00CF2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{2FD7970B-DD14-4899-AA91-1D151CFCE3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FD7970B-DD14-4899-AA91-1D151CFCE3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FD7970B-DD14-4899-AA91-1D151CFCE3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1AE7C3-14CE-4198-BF58-F5C63F00CF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1AE7C3-14CE-4198-BF58-F5C63F00CF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1AE7C3-14CE-4198-BF58-F5C63F00CF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1AE7C3-14CE-4198-BF58-F5C63F00CF2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

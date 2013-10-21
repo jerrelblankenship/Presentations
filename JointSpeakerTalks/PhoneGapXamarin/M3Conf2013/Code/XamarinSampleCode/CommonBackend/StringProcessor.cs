@@ -2,9 +2,9 @@
 {
     public class StringProcessor : IStringProcessor
     {
-	    public string ConvertToNumberString(string romanNumeral)
+	    public int ConvertToNumberString(string romanNumeral)
 	    {
-		    throw new System.NotImplementedException();
+		    return 1;
 	    }
 
 	    public string ConvertToRomanNumeral(string numberString)
