@@ -5,7 +5,7 @@ sayHelloWorld = () ->
     result = ""
 
     if enteredText.length > 0 
-        result = "Hello " + enteredText + " from the wonderful world of CoffeeScript inside of .NET"
+        result = "Hello hit save " + enteredText + " from the wonderful world of CoffeeScript inside of .NET"
 
     $('#resultMessage').html(result)
     

@@ -1,13 +1,14 @@
 ﻿@{
     ViewBag.Title = "Index";
 }
+<script type="text/javascript" src="~/Scripts/RomanNumeral.js"></script>
 
 <h2>String to Roman Numeral</h2>
 <div>
     <label>Enter a Number to Convert: </label>
     <input type="text" id="stringToRoman"/>
     <br/>
-    <input type="button" id="convertStringToRoman" value="Click to Convert"/>
+    <input type="button" id="convertStringToRoman" value="Click to Convert" onclick="convertToRoman(); return false;"/>
     <br/>
     <label id="sToRomanResult"></label>
 </div>
@@ -17,7 +18,7 @@
     <label>Enter a Roman Numeral to Convert: </label>
     <input type="text" id="romanToString"/>
     <br/>
-    <input type="button" id="convertRomanToString" value="Click to Convert"/>
+    <input type="button" id="convertRomanToString" value="Click to Convert" onclick="convertToArabic(); return false;"/>
     <br/>
-    <label id="rToStringResult"></label>
+    <label id="rToStringResult">Result</label>
 </div>

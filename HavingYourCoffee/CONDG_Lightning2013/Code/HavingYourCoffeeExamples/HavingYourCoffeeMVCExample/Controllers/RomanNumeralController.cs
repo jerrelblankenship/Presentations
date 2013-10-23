@@ -16,5 +16,10 @@ namespace HavingYourCoffeeMVCExample.Controllers
             return View();
         }
 
+        [AcceptVerbs(HttpVerbs.Post)]
+        public JsonResult ConvertToRoman(string id)
+        {
+            return Json("I");
+        }
     }
 }

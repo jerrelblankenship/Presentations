@@ -60,6 +60,9 @@
     <Content Include="HelloFromCoffeeScript.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\helloWorld.coffee" />
+    <Content Include="Scripts\helloWorld.min.js.map">
+      <DependentUpon>helloWorld.js</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-2.0.1.intellisense.js" />
     <Content Include="Scripts\helloWorld.js">
       <DependentUpon>helloWorld.coffee</DependentUpon>
