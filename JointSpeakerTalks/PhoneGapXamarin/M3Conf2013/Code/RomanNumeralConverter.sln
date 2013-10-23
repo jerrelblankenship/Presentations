@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConverter", "RomanNumeralConverter\RomanNumeralConverter.csproj", "{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverterAndroidX", "RomanConverterAndroidX\RomanConverterAndroidX.csproj", "{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverterWPX", "RomanConverterWPX\RomanConverterWPX.csproj", "{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConverterSharedBase", "RomanConverterSharedBase\RomanConverterSharedBase.csproj", "{9AF6D729-E5CF-495F-85D5-18036CDA7510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +37,49 @@ Global
 		{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}.Release|x86.ActiveCfg = Release|x86
 		{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}.Release|x86.Build.0 = Release|x86
 		{3677C1B7-D68B-4CF9-BF8A-E869D437A6DF}.Release|x86.Deploy.0 = Release|x86
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Debug|ARM.Build.0 = Debug|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Debug|x86.Build.0 = Debug|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Release|ARM.ActiveCfg = Release|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Release|ARM.Build.0 = Release|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Release|x86.ActiveCfg = Release|Any CPU
+		{9AF6D729-E5CF-495F-85D5-18036CDA7510}.Release|x86.Build.0 = Release|Any CPU
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|ARM.Build.0 = Debug|ARM
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|x86.ActiveCfg = Debug|x86
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|x86.Build.0 = Debug|x86
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Debug|x86.Deploy.0 = Debug|x86
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|ARM.ActiveCfg = Release|ARM
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|ARM.Build.0 = Release|ARM
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|ARM.Deploy.0 = Release|ARM
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|x86.ActiveCfg = Release|x86
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|x86.Build.0 = Release|x86
+		{B3CD63E2-6C53-4A66-937B-2C9F51B15A27}.Release|x86.Deploy.0 = Release|x86
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{EDC15249-BFDE-4C4D-95A5-9F6B61F1BA4E}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RomanNumeralConverter\RomanNumeralConverter.csproj
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
