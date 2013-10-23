@@ -11,6 +11,8 @@ using RomanConverterWPX.Resources;
 
 namespace RomanConverterWPX
 {
+	using RomanConverterSharedBase;
+
 	public partial class MainPage : PhoneApplicationPage
 	{
 		// Constructor
@@ -37,5 +39,11 @@ namespace RomanConverterWPX
 		//    ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
 		//    ApplicationBar.MenuItems.Add(appBarMenuItem);
 		//}
+		private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+		{
+			var converter = new RomanNumeralConverter();
+
+			RomanNumberResult.Text = converter.NumberToRoman(Convert.ToInt32(ArabicNumberText.Text));
+		}
 	}
 }
