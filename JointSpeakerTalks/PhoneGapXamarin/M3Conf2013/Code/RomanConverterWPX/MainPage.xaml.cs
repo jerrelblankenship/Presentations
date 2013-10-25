@@ -43,7 +43,10 @@ namespace RomanConverterWPX
 		{
 			var converter = new RomanNumeralConverter();
 
-			RomanNumberResult.Text = converter.NumberToRoman(Convert.ToInt32(ArabicNumberText.Text));
+			if (!String.IsNullOrEmpty(ArabicNumberText.Text))
+			{
+				RomanNumberResult.Text = converter.NumberToRoman(Convert.ToInt32(ArabicNumberText.Text));
+			}
 		}
 	}
 }
