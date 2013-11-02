@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>QUnit-Metro</id>
+    <version>0.4.1</version>
+    <title />
+    <authors>Jeffrey T. Fritz</authors>
+    <owners>Jeffrey T. Fritz</owners>
+    <licenseUrl>https://raw.github.com/jquery/jquery/master/GPL-LICENSE.txt</licenseUrl>
+    <projectUrl>http://qunitmetro.github.com/QUnitMetro/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A fork of the QUnit javascript unit test framework that has been redesigned to work exclusively with WinJS bindings in Windows 8.</description>
+    <summary>A javascript unit test framework for Metro WinJS apps</summary>
+    <releaseNotes>Added unique test id for each test</releaseNotes>
+    <copyright>(c) 2012 - Jeffrey T. Fritz</copyright>
+    <language>en-US</language>
+    <tags>javascript winjs qunit test</tags>
+  </metadata>
+</package>
