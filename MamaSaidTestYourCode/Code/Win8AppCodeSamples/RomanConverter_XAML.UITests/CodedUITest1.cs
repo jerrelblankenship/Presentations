@@ -45,6 +45,17 @@ namespace RomanConverter_XAML.UITests
 
         }
 
+        [TestMethod]
+        public void CodedUITest_IIIwhenpassedin3()
+        {
+            var myWindowApp = XamlWindow.Launch("ac6d9b0f-dd95-410a-aa20-573a49b0e1dd_c0f0e9w7n7var!App");
+            this.UIMap.UIRomanConverter_XAMLWindow.UITextBoxEdit.Text = "3";
+            Gesture.Tap(UIMap.UIRomanConverter_XAMLWindow.UISubmitButton);
+
+            this.UIMap.AssertThatIIIReturnsFrom3();
+
+        }
+
         #region Additional test attributes
 
         // You can use the following additional attributes as you write your tests:

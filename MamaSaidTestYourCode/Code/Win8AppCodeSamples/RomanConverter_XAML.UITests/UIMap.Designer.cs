@@ -53,6 +53,19 @@ namespace RomanConverter_XAML.UITests
             Assert.AreEqual(this.AssertReturnValue_IIExpectedValues.UIResultBlockTextDisplayText, uIResultBlockText.DisplayText);
         }
         
+        /// <summary>
+        /// AssertThatIIIReturnsFrom3 - Use 'AssertThatIIIReturnsFrom3ExpectedValues' to pass parameters into this method.
+        /// </summary>
+        public void AssertThatIIIReturnsFrom3()
+        {
+            #region Variable Declarations
+            XamlText uIResultBlockText = this.UIRomanConverter_XAMLWindow.UIResultBlockText;
+            #endregion
+
+            // Verify that the 'DisplayText' property of 'resultBlock' label equals 'III'
+            Assert.AreEqual(this.AssertThatIIIReturnsFrom3ExpectedValues.UIResultBlockTextDisplayText, uIResultBlockText.DisplayText);
+        }
+        
         #region Properties
         public virtual AssertMethod1ExpectedValues AssertMethod1ExpectedValues
         {
@@ -78,6 +91,18 @@ namespace RomanConverter_XAML.UITests
             }
         }
         
+        public virtual AssertThatIIIReturnsFrom3ExpectedValues AssertThatIIIReturnsFrom3ExpectedValues
+        {
+            get
+            {
+                if ((this.mAssertThatIIIReturnsFrom3ExpectedValues == null))
+                {
+                    this.mAssertThatIIIReturnsFrom3ExpectedValues = new AssertThatIIIReturnsFrom3ExpectedValues();
+                }
+                return this.mAssertThatIIIReturnsFrom3ExpectedValues;
+            }
+        }
+        
         public UIRomanConverter_XAMLWindow UIRomanConverter_XAMLWindow
         {
             get
@@ -95,6 +120,8 @@ namespace RomanConverter_XAML.UITests
         private AssertMethod1ExpectedValues mAssertMethod1ExpectedValues;
         
         private AssertReturnValue_IIExpectedValues mAssertReturnValue_IIExpectedValues;
+        
+        private AssertThatIIIReturnsFrom3ExpectedValues mAssertThatIIIReturnsFrom3ExpectedValues;
         
         private UIRomanConverter_XAMLWindow mUIRomanConverter_XAMLWindow;
         #endregion
@@ -127,6 +154,21 @@ namespace RomanConverter_XAML.UITests
         /// Verify that the 'DisplayText' property of 'resultBlock' label equals 'II'
         /// </summary>
         public string UIResultBlockTextDisplayText = "II";
+        #endregion
+    }
+    
+    /// <summary>
+    /// Parameters to be passed into 'AssertThatIIIReturnsFrom3'
+    /// </summary>
+    [GeneratedCode("Coded UITest Builder", "12.0.21005.1")]
+    public class AssertThatIIIReturnsFrom3ExpectedValues
+    {
+        
+        #region Fields
+        /// <summary>
+        /// Verify that the 'DisplayText' property of 'resultBlock' label equals 'III'
+        /// </summary>
+        public string UIResultBlockTextDisplayText = "III";
         #endregion
     }
     

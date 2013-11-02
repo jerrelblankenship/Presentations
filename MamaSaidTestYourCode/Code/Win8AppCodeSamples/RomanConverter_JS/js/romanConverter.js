@@ -5,10 +5,10 @@
 
     convertToRoman: function (num) {
         var roman = "";
-        //while (num > 0) {
-        //    roman = roman + "I";
-        //    num--;
-        //}
+        while (num > 0) {
+            roman = roman + "I";
+            num--;
+        }
         return roman;
     }
 }
