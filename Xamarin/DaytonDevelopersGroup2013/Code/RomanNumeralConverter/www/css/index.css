@@ -1,0 +1,62 @@
+.app {
+	padding: 10px;
+}
+
+.conversionArea {	
+	clear: both;
+}
+
+.inputRow {
+    clear: both;
+}
+
+.colLeft {
+	width: 40%;
+	float: left;
+	margin-top:15px;
+}
+
+.colRight {
+	width: 60%;
+	float: left;
+}
+
+.btnContainer {
+	height: 50px;
+	clear: both;
+}
+
+.convertBtn {
+	width: 40%;
+	float: left;
+	margin-left: 20px;
+}
+
+.clearBtn {
+	width: 40%;
+	float: right;
+	margin-right: 20px;
+}
+
+.label {
+	font-size:12;
+	font-weight:bold;
+}
+
+.changeLink {
+	text-align: center;
+}
+
+.resultBox {
+	border-style: solid;
+	border-width: 1px;
+	height: 80px;
+	margin: 20px;
+	clear: both;
+	text-align: center;
+}
+
+#result {
+	font-weight: bold;
+	font-size: 16;
+}
