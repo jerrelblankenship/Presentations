@@ -1,0 +1,30 @@
+﻿@model MVCBlogApp.Models.BlogViewModel
+
+@{
+    ViewBag.Title = "Blog Entry Screen";
+}
+
+<h1>Blog Entry Screen</h1>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+   
+    <div>@Html.Label("Title:")</div>
+    <div>@Html.TextBoxFor(model=>model.Title)</div>
+    
+    <br/>
+    
+    <div>@Html.Label("Body:")</div>
+    <div>@Html.TextBoxFor(model=>model.Body)</div>
+
+    <input type="submit" value="Create" id="Submit" />
+}
+
+<div>
+    @Html.ActionLink("Back to Summary Page", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

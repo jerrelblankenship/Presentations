@@ -1,9 +1,0 @@
-﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Evercraft_WP7_Tests" EntryPointType="Evercraft_WP7_Tests.App" RuntimeVersion="4.7.50308.0">
-  <Deployment.Parts>
-    <AssemblyPart x:Name="Evercraft_WP7_Tests" Source="Evercraft_WP7_Tests.dll" />
-    <AssemblyPart x:Name="Evercraft" Source="Evercraft.dll" />
-    <AssemblyPart x:Name="Microsoft.Silverlight.Testing" Source="Microsoft.Silverlight.Testing.dll" />
-    <AssemblyPart x:Name="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight" Source="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll" />
-    <AssemblyPart x:Name="TechTalk.SpecFlow.WindowsPhone7" Source="TechTalk.SpecFlow.WindowsPhone7.dll" />
-  </Deployment.Parts>
-</Deployment>

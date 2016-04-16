@@ -1,5 +1,0 @@
-C:\GitRepositories\Evercraft_Kata\Evercraft_WP7\Evercraft\Bin\Debug\Evercraft.dll
-C:\GitRepositories\Evercraft_Kata\Evercraft_WP7\Evercraft\Bin\Debug\Evercraft.pdb
-C:\GitRepositories\Evercraft_Kata\Evercraft_WP7\Evercraft\obj\Debug\ResolveAssemblyReference.cache
-C:\GitRepositories\Evercraft_Kata\Evercraft_WP7\Evercraft\obj\Debug\Evercraft.dll
-C:\GitRepositories\Evercraft_Kata\Evercraft_WP7\Evercraft\obj\Debug\Evercraft.pdb
